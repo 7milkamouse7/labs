@@ -1,0 +1,194 @@
+
+
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+a{
+    text-decoration: none;
+}
+*{
+    font-family: 'Proxima Nova', sans-serif;
+}
+img{
+    width: 100%;
+}
+
+.background{
+    background: url(img/DSC_1007_2000.png) repeat-y,
+    #fff url(img/back-2.png) repeat-y 100% 0; 
+
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+.header{
+    padding: 15px 30px;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.text{
+    color:white;
+    
+    font-weight: bold;
+}
+.gray{
+    color: gray;
+    font-size: 0.8rem;
+    letter-spacing:0.1rem;
+}
+
+.icon{
+    font-size: 30px;
+    letter-spacing:0.5rem;
+}
+.line{
+    text-decoration: line-through;
+    text-decoration-color:#BEA67C;
+    text-decoration-thickness: 0.3rem;
+
+}
+h1{
+    color: #BEA67C;
+    font-size: 120px;
+    letter-spacing:1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.dot{
+    color: #BEA67C;
+}
+#info{
+    margin-right: 50px;
+}
+.pt-180{padding-top: 180px;}
+.pb-180{padding-bottom: 180px;}
+.b{
+   color: white;
+}
+.learn-more{
+    border: white 3px solid;
+    color: white;
+    padding:15px 70px ;
+}
+.black{
+    color: black;
+}
+.black>b{
+    font-size: 40px;
+    font-weight: 600;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mb-100{
+    margin-bottom: -100px;
+}
+#learnmore:hover{
+    color: black;
+}
+#learnmore{
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+}
+#img{
+    width:40px ;
+    height: 20px;
+}
+#learnmore>u{
+   text-decoration-color: #BEA67C;
+   text-decoration-thickness:0.2rem  ;
+   
+}
+hr{
+    color: #BEA67C;
+    height: 50px;
+    border-top:0.2rem solid ;
+    opacity: 1;
+    width: 50px;
+    margin: 0 auto;
+}
+.mt100{
+    margin-top: 100px;
+}
+#svg{
+    position: relative;
+right: 157px;
+}
+.svg{
+    position: relative;
+    left: 143px;
+    z-index: 99999;
+    opacity: 1;
+}
+.mr40{
+    margin-right: 40px;
+}
+.mt25{
+    margin-top: 25px;
+    height: 25px;
+}
+.borderblock{
+    border:#BEA67C 3px solid;
+    padding: 50px 0px;
+    margin: 0 auto;
+    
+}
+.blockimage{
+    background-image:url('img/SplitShire-7483.png') ;
+    padding: 100px 0px;
+}
+.color{
+    color: #BEA67C;
+}
+.video{
+    border: white 3px solid;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#video{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+footer{
+    background-color: black;
+    margin-top: 180px;
+}
+#i1{
+   justify-content: center;
+   margin-top:50px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .mobile
+    {
+        display: none !important;
+    }
+    #info{
+        margin-right: 20px !important;
+    }
+    .icon{
+        font-size: 20px
+    }
+    h1{
+        font-size: 35px;
+    }
+    .adaptive{
+        flex-direction: column-reverse;
+    }
+}
